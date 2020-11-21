@@ -24,12 +24,12 @@ public class HandleTruthTest {
                 n1 = (input[i][j]);
             }
             HashMap<String, Integer> actual = HandleTruth.wordCount(n1);
-            ArrayList<HashMap<String, Integer>> expected = getHashMapTest();
+            ArrayList<HashMap<String, Integer>> expected = getHashMapExpected();
             assertEquals(expected.get(i), actual);
         }
     }
 
-    private ArrayList<HashMap<String, Integer>> getHashMapTest() {
+    private ArrayList<HashMap<String, Integer>> getHashMapExpected() {
         ArrayList<HashMap<String, Integer>> expected = new ArrayList<>();
 
         HashMap<String, Integer> n1 = new HashMap<>();

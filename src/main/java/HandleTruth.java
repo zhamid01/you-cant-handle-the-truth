@@ -33,7 +33,6 @@ public class HandleTruth {
         for (Map.Entry<Integer, Set<String>> entry : sortedMap.entrySet()) {
             System.out.println(entry);
         }
-        System.out.print(wordMap);
         return wordMap;
     }
 }
